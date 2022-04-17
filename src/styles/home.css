@@ -1,0 +1,35 @@
+.topnav{
+    display: flex;
+    background-color: black;
+    padding: 0.5rem;
+    justify-content: space-between;
+}
+
+.topnav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+.searchbox{
+    display: inline;
+    color: white;
+}
+
+.repos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1 0 auto;
+}
+
+.pagination{
+    width: fit-content;
+    margin: auto;
+    margin-top:10px;
+}
+
+.searchbutton{
+    position: relative; top: 10px;
+    padding: 2px;
+}
